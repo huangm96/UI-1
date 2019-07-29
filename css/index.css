@@ -134,14 +134,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -173,4 +173,16 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  background: #ECECEC;
+  justify-content: space-between;
+}
+.navigation .nav_title {
+  display: flex;
+}
+.navigation .nav_title img {
+  width: 20%;
+  height: 100%;
 }
